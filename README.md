@@ -7,11 +7,11 @@ Built using **Python**, **NLP**, and **Streamlit**, this project combines techno
 
 ## 🔍 Features
 
-- 🎯 Predicts emotional tone: *joy*, *sadness*, *fear*, *anger*, etc.
-- 🧠 Identifies mental health indicators (depression, anxiety, stress)
-- ✅ Correction layer for emotion prediction using keyword matching
-- 🌐 Simple, interactive Streamlit UI
-- ✏️ Accepts multiline input for batch predictions
+- Predicts emotional tone: *joy*, *sadness*, *fear*, *anger*, etc.
+- Identifies mental health indicators (depression, anxiety, stress)
+- Correction layer for emotion prediction using keyword matching
+- Simple, interactive Streamlit UI
+- Accepts multiline input for batch predictions
 ---
 ## 🛠️ Tech Stack
 
@@ -37,3 +37,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+---
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
