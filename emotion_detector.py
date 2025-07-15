@@ -89,7 +89,7 @@ def correct_prediction(text, predicted_emotion):
     return predicted_emotion
 
 
-#new loop
+
 while True:
     user_input = input("\n💬 Enter a sentence (or type 'exit'): ")
     if user_input.lower() == "exit":
