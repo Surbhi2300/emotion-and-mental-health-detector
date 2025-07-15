@@ -29,7 +29,7 @@ preds = model.predict(test_df['text'])
 print("🔍 Accuracy:", accuracy_score(test_df['emotion'], preds))
 print("\n📊 Classification Report:\n", classification_report(test_df['emotion'], preds))
 
-#new
+
 def detect_mental_health_condition(text, predicted_emotion):
     text = text.lower()
 
